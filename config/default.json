@@ -1,0 +1,9 @@
+{
+  "DB_CONNECTION_STRING": "postgres://doadmin:admin@localhost:5432/mtvpunks",
+  "DB_HOST": "localhost",
+  "DB_USER": "root",
+  "DB_PASSWORD": "",
+  "DB_DATABASE": "mtvpunks",
+  "JWT_SECRET": "123456",
+  "NONCE_SECRET": "123123123123"
+}

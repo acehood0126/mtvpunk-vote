@@ -1,0 +1,68 @@
+.btn {
+    white-space: nowrap;
+    outline: 0 !important;
+    font-size: 24px;
+    padding: 12px 28px;
+    border-radius: 50px;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: $primary-color;
+    color: $white-color;
+}
+
+.btn-secondary {
+    background-color: $white-color;
+    color: $text-inverse-color;
+}
+
+.btn-primary-gradient {
+    width: 300px;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 4px 0px;
+    background: linear-gradient(90deg, #6600ff, #0066ff);
+    color: $white-color;
+    border-radius: 12px;
+    border-width: 0px;
+    text-align: center;
+}
+
+.btn-secondary-gradient {
+    width: 300px;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 4px 0px;
+    background: linear-gradient(90deg, #04bb28, #98ff00);
+    color: #191c24;
+    border-radius: 12px;
+    border-width: 0px;
+    text-align: center;
+}
+
+.btn-roadmap {
+    font-size: 24px;
+    background: transparent;
+    border: 5px $white-color solid !important;
+    box-shadow: -3px -3px 0px #00d2ff, 3px 3px 0px #c500ff;
+
+    &:hover {
+        background: transparent;
+        transition: all ease-in-out 0.2s;
+        /* opacity: .8; */
+        color: $white-color !important;
+    }
+}
+
+
+@media (max-width: 767px){
+    .btn {
+        font-size: 14px;
+        padding: 4px 12px;
+    }
+}

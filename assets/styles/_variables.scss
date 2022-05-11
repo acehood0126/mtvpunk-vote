@@ -1,0 +1,42 @@
+$bg-main-color: #0d0d0d;
+$bg-card-color: #E0E0E0;
+$text-main-color: #FFFFFF;
+$text-desc-color: #c0bfba;
+$text-inverse-color: #1D0D52;
+
+$primary-color: #7951EC;
+$secondary-color: #200B6A;
+
+$white-color: #FFFFFF;
+
+$normal-gap: 15px;
+
+$navbar-height: 146px;
+$navbar-bg-color: transparent;
+
+$primary-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 0.01%, rgba(255, 255, 255, 0.1) 100%);
+$secondary-gradient: linear-gradient(251.01deg, #7951EC 4.43%, #200B6A 95.37%);
+
+$spacer: 1.25rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
+
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1400px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1512px
+);

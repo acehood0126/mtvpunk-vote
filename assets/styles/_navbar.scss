@@ -1,0 +1,66 @@
+.navbar {
+    height: $navbar-height;
+    color: $white-color;
+    background-color: $navbar-bg-color;
+    padding: 0px;
+
+    &-container {
+        height: 100%;        
+        padding: 0 24px;        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    & svg {
+        width: 36px;
+        height: 36px;
+        display: inline-block;
+        flex-shrink: 0;
+        user-select: none;
+        fill: currentColor;
+    }
+}
+
+.navbar-header {
+    margin: 11px 16px;
+}
+
+.navbar-brand img {
+    width: 160px;
+}
+
+.navbar-collapse.collapse {
+    background-color: $navbar-bg-color;
+    z-index: 10;
+
+    @media (max-width: ($screen-xl - 1px)){
+        &.show {
+            display: flex;
+            justify-content: center;
+            height: calc(100vh - $navbar-height);
+            padding: 12px 20px;
+            background-color: $secondary-color;
+            border-radius: 30px;
+        }
+
+        .nav-item {
+            margin: 12px 0;
+        }
+    }
+}
+
+.navbar-dark .navbar-nav a {
+    color: $white-color !important;
+    font-size: 20px;
+    padding: 8px 12px;
+
+}
+.navbar-dark .navbar-toggler {
+    border: 0px;
+    padding: 0px;
+
+    &:focus {
+        box-shadow: none;
+    }
+}
